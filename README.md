@@ -1,5 +1,5 @@
 # mazinyer-con-z
-##integrantes
+## integrantes
 francisco muñoz
 gary vidal
 felipe 
