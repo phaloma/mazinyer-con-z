@@ -29,7 +29,8 @@ void loop() {
       digitalWrite(L2, LOW);
       digitalWrite(R1, HIGH);
       digitalWrite(R2, LOW);
-      digitalWrite(13, HIGH);
+      digitalWrite(13, HIGH); //LED Encendido
+      delay(100);
     }// if del caso "adelante"
 
     if(entrada == 'L'){
@@ -37,7 +38,8 @@ void loop() {
       digitalWrite(L1, LOW);
       digitalWrite(R2, HIGH);
       digitalWrite(R1, LOW);
-      digitalWrite(13, LOW);
+      digitalWrite(13, LOW); //LED Apagado
+      delay(100);
     }// if del caso "atras"
 
     else{
@@ -45,7 +47,8 @@ void loop() {
       digitalWrite(L2, LOW);
       digitalWrite(R1, LOW);
       digitalWrite(R2, LOW);
-      
+      delay(100);
+    
     }// if del caso "apagado"
   }//if para ver que est prendido
 }//Loop
