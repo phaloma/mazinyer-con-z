@@ -50,4 +50,11 @@ if(Serial.available)= >=1){
     digitalWrite(R2, LOW);
     digitalWrite(13, HIGH);
     delay(50);
+   else{
+    digitalWrite(L1, LOW);
+    digitalWrite(L2, LOW);
+    digitalWrite(R1, LOW);
+    digitalWrite(R2, LOW);
+    delay(50);
+  }//if caso 'apagado'
   }
