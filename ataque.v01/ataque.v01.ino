@@ -19,11 +19,11 @@ void loop(){
     
     if (entrada == 'A'){
       ang=ang+5;//aumenta el angulo
-      Serial.println(entrada);
+      Serial.println(ang);
       }
     else if (entrada == 'S'){
       ang=ang-5;//disminuye el angulo
-      Serial.println(entrada);
+      Serial.println(ang);
       }
    ang=constrain(ang,0,180);//limitacion de los valores del angulo
       }
